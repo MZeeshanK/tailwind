@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Tailwind Projects || MZeeshanK</title>
+  </head>
+  <body class="bg-dark min-h-screen text-gray-300">
+    <nav
+      id="navbar"
+      class="sticky flex flex-col lg:flex-row items-center justify-between p-4 space-y-2 bg-opacity-90 bg-veryDarkViolet"
+    >
+      <div>
+        <a
+          href="https://github.com/MZeeshanK"
+          target="_blank"
+          class="font-bold text-7xl hover:text-softRed tracking-wide cursor-pointer drop-shadow-2xl italic"
+        >
+          Tailwindcss
+        </a>
+      </div>
+      <div class="flex flex-row items-center tracking-wide divide-x-2">
+        <a
+          href="#mini-projects"
+          class="uppercase text-md p-2 hover:text-softRed"
+        >
+          mini-projects
+        </a>
+
+        <a
+          href="#website-projects"
+          class="uppercase text-md p-2 hover:text-softRed"
+        >
+          website-projects
+        </a>
+      </div>
+    </nav>
+
+    <main
+      class="flex flex-col bg-veryDarkBlue text-center items-center space-y-10 w-11/12 rounded-3xl mx-auto my-6 md:space-y-15 lg:space-y-20 bg-opacity-80 py-5"
+    >
+      <!-- About -->
+      <section id="about" class="section-container space-y-0 lg:w-3/4">
+        <h2 class="section-heading mb-8">about</h2>
+        <p class="section-parah">
+          This is a compilation of all the projects and websites I made while
+          learning Tailwind. Below are the websites and mini-projects which I
+          made with Tailwind with the help of the
+          <a
+            href="https://www.udemy.com/course/tailwind-from-scratch/"
+            class="inline text-blue"
+            >Tailwind CSS From Scratch | Learn By Building Projects
+          </a>
+          created by
+          <a
+            href="https://www.udemy.com/user/brad-traversy/"
+            class="inline text-blue"
+            >Brad traversy</a
+          >
+        </p>
+        <p class="section-parah">
+          To check out my other projects visit my
+          <a href="https://github.com/MZeeshank" class="inline text-blue"
+            >github</a
+          >
+          profile.
+        </p>
+      </section>
+
+      <!-- website-projects -->
+      <section id="website-projects" class="section-container">
+        <h2 class="section-heading">Website projects</h2>
+
+        <!-- content -->
+        <div class="content-section">
+          <!-- tab 1  -->
+          <div class="tab group" tabindex="1">
+            <!-- bar  -->
+            <div class="bar-website">
+              <p class="bar-text group-hover:text-softRed">bookmark</p>
+              <span
+                class="text-xl transition duration-500 group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a
+                  href="../website-projects/bookmark-website/index.html"
+                  target="_blank"
+                >
+                  <img
+                    src="images/bookmark.png"
+                    class="panel-image border-darkBlue"
+                    alt="Image Not Found"
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="panel-btn bg-darkBlue rounded-bl-2xl"
+                  >View Code</a
+                >
+                <a
+                  href="../website-projects/bookmark-website/index.html"
+                  class="panel-btn bg-darkBlue rounded-br-2xl"
+                  target="_blank"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 2 -->
+          <div class="tab group" tabindex="2">
+            <!-- bar -->
+            <div class="bar-website">
+              <p class="bar-text group-hover:text-softRed">clipboard</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel  -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <!-- Image -->
+              <div class="w-full">
+                <a
+                  href="../website-projects/clipboard/index.html"
+                  target="_blank"
+                >
+                  <img
+                    src="images/clipboard.png"
+                    class="panel-image border-darkBlue rounded-t-2xl"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <!-- Buttons -->
+              <div class="w-full flex items-center gap-1">
+                <a
+                  href="#"
+                  class="bg-darkBlue panel-btn rounded-bl-xl"
+                  target="_blank"
+                  >View Code</a
+                >
+                <a
+                  href="../website-projects/clipboard/index.html"
+                  class="bg-darkBlue panel-btn rounded-br-2xl"
+                  target="_blank"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- tab 3 -->
+          <div class="tab group" tabindex="3">
+            <!-- bar -->
+            <div class="bar-website">
+              <p class="bar-text group-hover:text-softRed">fylo</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a href="../website-projects/fylo/index.html" target="_blank">
+                  <img
+                    src="images/fylo.png"
+                    class="panel-image border-darkBlue rounded-t-2xl"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a
+                  href="#"
+                  class="panel-btn bg-darkBlue rounded-bl-xl"
+                  target="_blank"
+                  >View Code</a
+                >
+                <a
+                  href="../website-projects/fylo/index.html"
+                  class="panel-btn bg-darkBlue rounded-br-2xl"
+                  target="_blank"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 4 -->
+          <div class="tab group" tabindex="4">
+            <!-- bar -->
+            <div class="bar-website">
+              <p class="bar-text group-hover:text-softRed">loop studios</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel  -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a
+                  href="../website-projects/loop-studios/index.html"
+                  target="_blank"
+                >
+                  <img
+                    src="images/loopstudios.png"
+                    class="panel-image border-darkBlue rounded-t-2xl"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a
+                  href="#"
+                  class="panel-btn bg-darkBlue rounded-bl-xl"
+                  target="_blank"
+                  >View Code</a
+                >
+                <a
+                  href="../website-projects/loop-studios/index.html"
+                  class="panel-btn bg-darkBlue rounded-br-2xl"
+                  target="_blank"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 5 -->
+          <div
+            class="flex flex-col items-center w-full space-y-4 transition duration-500 group"
+            tabindex="5"
+          >
+            <!-- bar  -->
+            <div class="bar-website">
+              <p class="bar-text group-hover:text-softRed">shortly</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel  -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a
+                  href="../website-projects/shortly/index.html"
+                  target="_blank"
+                >
+                  <img
+                    src="images/shortly.png"
+                    class="panel-image border-darkBlue rounded-t-2xl"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a
+                  href="#"
+                  class="bg-darkBlue panel-btn rounded-bl-xl"
+                  target="_blank"
+                  >View Code</a
+                >
+                <a
+                  href="../website-projects/shortly/index.html"
+                  class="bg-darkBlue panel-btn rounded-br-2xl"
+                  target="_blank"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- tab 6 -->
+          <div
+            class="flex flex-col items-center w-full space-y-4 transition duration-500 group"
+            tabindex="6"
+          >
+            <!-- bar  -->
+            <div class="bar-website">
+              <p class="bar-text group-hover:text-softRed">testimonials</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel  -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a
+                  href="../website-projects/testimonials/index.html"
+                  target="_blank"
+                >
+                  <img
+                    src="images/testimonials.png"
+                    class="panel-image border-darkBlue"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a
+                  href="#"
+                  class="bg-darkBlue panel-btn rounded-bl-xl"
+                  target="_blank"
+                  >View Code</a
+                >
+                <a
+                  href="../website-projects/testimonials/index.html"
+                  class="bg-darkBlue panel-btn rounded-br-2xl"
+                  target="_blank"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- mini-projects -->
+      <section id="mini-projects" class="section-container">
+        <!-- text -->
+        <div class="flex flex-col space-y-6">
+          <h2 class="section-heading">mini projects</h2>
+          <p class="section-parah"></p>
+        </div>
+        <!-- content -->
+        <div class="content-section">
+          <!-- tab 1  -->
+          <div class="tab group" tabindex="1">
+            <!-- bar  -->
+            <div class="bar-mini">
+              <p class="bar-text group-hover:text-softRed">email subscribe</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel  -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a
+                  href="../mini-projects/email-subscribe/index.html"
+                  target="_blank"
+                >
+                  <img
+                    src="images/email-subscribe.png"
+                    class="panel-image border-blue"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a href="#" class="panel-btn bg-blue rounded-bl-2xl"
+                  >View Code</a
+                >
+                <a
+                  href="mini-projects/email-subscribe/index.html"
+                  class="panel-btn bg-blue rounded-br-2xl"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 2 -->
+          <div class="tab group" tabindex="2">
+            <!-- bar  -->
+            <div class="bar-mini">
+              <p class="bar-text group-hover:text-softRed">Image gallery</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel  -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a href="../mini-projects/image-gallery/index.html">
+                  <img
+                    src="images/image-gallery.png"
+                    class="panel-image border-blue"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a href="#" class="bg-blue panel-btn rounded-bl-xl"
+                  >View Code</a
+                >
+                <a
+                  href="../mini-projects/image-gallery/index.html"
+                  class="bg-blue panel-btn rounded-br-2xl"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 3 -->
+          <div class="tab group" tabindex="3">
+            <!-- bar -->
+            <div class="bar-mini">
+              <p class="bar-text group-hover:text-softRed">login modal</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a href="../mini-projects/login-modal/index.html">
+                  <img
+                    src="images/login-modal.png"
+                    class="panel-image border-blue"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a href="#" class="bg-blue panel-btn rounded-bl-xl"
+                  >View Code</a
+                >
+                <a
+                  href="../mini-projects/login-modal/index.html"
+                  class="bg-blue panel-btn rounded-br-2xl"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 4 -->
+          <div class="tab group" tabindex="4">
+            <!-- bar -->
+            <div class="bar-mini">
+              <p class="bar-text group-hover:text-softRed">pricing cards</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel  -->
+            <div
+              class="panel group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100"
+            >
+              <div class="w-full">
+                <a href="../mini-projects/pricing-cards/index.html">
+                  <img
+                    src="images/pricing-cards.png"
+                    class="panel-image border-blue"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a href="#" class="bg-blue panel-btn rounded-bl-xl"
+                  >View Code</a
+                >
+                <a
+                  href="../mini-projects/pricing-cards/index.html"
+                  class="bg-blue panel-btn rounded-br-2xl"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 5 -->
+          <div class="tab group" tabindex="5">
+            <!-- bar  -->
+            <div class="bar-mini">
+              <p class="bar-text group-hover:text-softRed">product modal</p>
+              <span
+                class="text-xl group-hover:text-softRed group-focus:-rotate-180 group-focus:text-softRed transition duration-500"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </div>
+
+            <!-- Panel  -->
+            <div
+              class="scale-y-0 max-h-0 flex translate-y-[-50%] flex-initial flex-col items-center justify-center group-focus:max-h-full group-focus:translate-y-0 group-focus:scale-y-100 transition duration-500"
+            >
+              <div class="w-full">
+                <a href="../mini-projects/product-modal/index.html">
+                  <img
+                    src="images/product-modal.png"
+                    class="panel-image border-blue"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="w-full flex items-center gap-1">
+                <a href="#" class="bg-blue panel-btn rounded-bl-xl"
+                  >View Code</a
+                >
+                <a
+                  href="../mini-projects/product-modal/index.html"
+                  class="bg-blue panel-btn rounded-br-2xl"
+                  >View Site</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="w-full bg-black">
+      <div
+        class="container mx-auto p-2 flex items-center space-y-8 flex-col text-white lg:flex-row lg:space-y-0 lg:justify-between text-2xl"
+      >
+        <p class="p-2 mx-2 lg:my-2 text-center capitalize">
+          MZeeshanK productions &copy; all rights reserved.
+        </p>
+        <div id="social" class="flex text-3xl flex-row items-center space-x-6">
+          <i class="fab fa-github hover:text-softRed hover:scale-110"></i>
+          <i class="fab fa-twitter hover:text-softRed hover:scale-110"></i>
+          <i class="fab fa-facebook hover:text-softRed hover:scale-110"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
